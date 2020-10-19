@@ -1,0 +1,1 @@
+export { default } from './one-in-common'

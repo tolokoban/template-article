@@ -1,0 +1,13 @@
+div.view-OneInCommon>div.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+div.view-OneInCommon>div.grid>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 3em;
+}
